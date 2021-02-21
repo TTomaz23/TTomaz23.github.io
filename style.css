@@ -28,7 +28,7 @@ h2{
 p{
 	/*width: 100%;*/
 	/*height: 50px;*/
-	max-height: 100px;
+	/*max-height: 100px;*/
 	clear: both;
 	overflow: auto /*scroll/visible/hidden*/;
 	color: #00FFFF;
