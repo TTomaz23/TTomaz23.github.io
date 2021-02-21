@@ -1,29 +1,4 @@
 
-h1 {
-	background: #777777;
-	font-size: 200%;
-	color: #FFFFFF;
-}
-
-header {
-	background: #999999;
-	text-align: center;
-	padding: 15px;
-}
-
-nav{
-	font-variant: small-caps;
-	color: #0000FF;
-	font-size: 150%;
-	font-family: Arial, "Time New Roman", serif;
-	/*filter: blur(0px);*/
-}
-
-h2{
-	color: #00BB00;
-	/*float: right;*/
-	text-decoration: underline;
-}
 
 p{
 	/*width: 100%;*/
@@ -34,90 +9,8 @@ p{
 	color: #00EEEE;
 }
 
-details{
-	font-style: italic;
-}
-
-summary{
-	font-style: normal;
-}
-
-footer {
-	background: #999999;
-	clear: both;
-}
-
-
-section {
-	border: solid #CC00AA;
-	border-width: 16px 8px 4px 2px; /* topo, direita, baixo, esquerda */
-	margin: 5px; /* distancia entre borda da tela e o elemento */
-	padding: 5px; /* distancia entre a borda e o texto */
-	
-	
-	width: 30%;
-	display: inline-block;
-	float: left;
-}
 
 body{							
 	background: #00FFFF;	
 	margin: 4%;
 }	
-
-/*
-a{
-background: #FFFF00
-}
-
-body{							
-	background: #00FFFF;	
-	display: block/inline/inline-block/none
-}		
-						
-p{
-display: table-cell;
-}
-
-body{
-display:table;
-}
-
-*/
-
-div.items p:not(:target) {
-	display: none
-}
-div.items p:target {
-	display: block;
-	outline: none
-}
-p.menu {
-	margin: 0;
-	padding: 0.4em;
-	background: silver;
-	color: black
-}
-p.menu a {
-	color: black;
-	border: thin outset silver;
-	padding: 0.1em 0.3em;
-	text-decoration: none;
-}
-div.items p {
-	/*height: 6em;*/
-	overflow: auto;
-	text-align: center;
-	margin: 0
-}
-#item1 {
-	color: red
-}
-#item2 {
-	color: green
-}
-#item3 {
-	color: blue
-}
-
-
